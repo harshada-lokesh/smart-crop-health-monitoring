@@ -23,8 +23,8 @@ This project presents an end-to-end smart farming solution. It combines **IoT so
 Used for localized disease detection across 7+ crop varieties.
 - **Results:** Precision, Recall, and mAP curves are stored in `/Graphs`.
 - **Demo:**
-![YOLO Detection](<img width="940" height="1018" alt="Screenshot 2025-05-06 204902" src="https://github.com/user-attachments/assets/163559d8-f81d-409c-8dfc-ce9c44699885" />
-) 
+![YOLO Detection]
+
 
 ### CNN Classification
 A high-accuracy model for identifying healthy vs. diseased leaves.
@@ -50,5 +50,5 @@ The system uses an **ESP32** microcontroller to fetch real-time data from:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/smart-crop-monitoring.git](https://github.com/YOUR_USERNAME/smart-crop-monitoring.git)
+   git clone [[https://github.com/YOUR_USERNAME/smart-crop-monitoring.git](https://github.com/YOUR_USERNAME/smart-crop-monitoring.git](https://github.com/harshada-lokesh/smart-crop-health-monitoring.git)]
    cd smart-crop-monitoring
