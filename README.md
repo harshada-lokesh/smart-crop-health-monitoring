@@ -4,6 +4,9 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Arduino](https://img.shields.io/badge/Arduino-IDE-00979D.svg)](https://www.arduino.cc/)
 [![ESP32](https://img.shields.io/badge/Hardware-ESP32-red.svg)](https://www.espressif.com/)
+[![Ubuntu 20.04](https://img.shields.io/badge/Ubuntu-20.04-E95420?style=flat&logo=ubuntu&logoColor=white)](https://releases.ubuntu.com/20.04/)
+[![ROS Melodic](https://img.shields.io/badge/ROS-Melodic-22314E?style=flat&logo=ros&logoColor=white)](http://wiki.ros.org/melodic)
+[![Husarion ROSbot 2 Pro](https://img.shields.io/badge/Hardware-ROSbot_2_Pro-blue?style=flat)](https://husarion.com/manuals/rosbot/)
 
 
 This project presents an end-to-end smart farming solution. It combines **IoT soil sensing** using ESP32 with **Computer Vision** (YOLOv11 & CNN) to detect and classify diseases in crops like Tomato, Potato, and Chili.
@@ -59,6 +62,18 @@ The system uses an **ESP32** microcontroller to fetch real-time data from:
   <img src="graphs/blynk.jpg" width="300" alt="Centered image">
 </p>
 
+## 🚀 Autonomous Navigation (ROS Integration)
+The system integrates with a **Husarion ROSbot 2 Pro** for autonomous field navigation. While currently used for path execution, the architecture allows for future fusion of Computer Vision (YOLO) and IoT data for dynamic obstacle avoidance.
+
+- **Path Following:** Implemented a custom ROS node to translate waypoints into `geometry_msgs/Twist` commands.
+- **Scenario Visualization:** Real-time monitoring of robot state and sensor data via RViz.
+- **Launch System:** A single launch file manages the lifecycle of both the navigation and visualization nodes.
+- **Navigation:**
+<p align="center">
+  <img src="graphs/robot_navigation.png" width="300" alt="Centered image">
+</p>
+
+
 ## 📜 Publication
 
 ### This project was published as a paper as part of the 15th IEEE International Conference on Control System, Computing and Engineering (ICCSCE 2025).
@@ -72,3 +87,8 @@ The system uses an **ESP32** microcontroller to fetch real-time data from:
    ```bash
    git clone https://github.com/harshada-lokesh/smart-crop-health-monitoring.git
    cd smart-crop-monitoring
+
+### Running Navigation
+2. Run it in Ubuntu Terminal:
+   ```bash
+   roslaunch smart_crop_monitoring rosbot_navigation.launch
