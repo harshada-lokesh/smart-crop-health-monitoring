@@ -29,7 +29,7 @@ Used for localized disease detection across 7+ crop varieties.
 - **Results:** Precision, Recall, and mAP curves are stored in `/Graphs`.
 - **Demo:**
 <p align="center">
-  <img src="graphs/yolo_result.png" width="500" alt="Centered image">
+  <img src="graphs/yolo_result.png" width="600" alt="Centered image">
 </p>
 
 
@@ -45,7 +45,7 @@ A high-accuracy model for identifying healthy and rust or powdery diseased leave
 ### After Detection
 The results + solution (remedy) for the diseased leaf is sent to the users for real-time monitoring via the **Blynk Mobile App**
 <p align="center">
-  <img src="graphs/CNN-result.png" width="300" alt="Centered image">
+  <img src="graphs/yolo-in-blynk.png" width="300" alt="Centered image">
 </p>
 
 ---
@@ -56,7 +56,7 @@ The system uses an **ESP32** microcontroller to fetch real-time data from:
 - **Soil:** NPK Sensor (Nutrients), DS18B20 (Temperature), Capacitive Moisture Sensor.
 - **IoT Dashboard:** Real-time monitoring via the **Blynk Mobile App**.
 <p align="center">
-  <img src="graphs/CNN-result.png" width="300" alt="Centered image">
+  <img src="graphs/blynk.jpg" width="300" alt="Centered image">
 </p>
 
 ## 📜 Publication
