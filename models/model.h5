@@ -1,0 +1,11 @@
+## 🧠 Model Weights
+Due to the file size (140MB), the CNN model for the Smart Crop Health Monitoring system are hosted on Hugging Face.
+
+[![Model on Hugging Face](https://huggingface.co/harshadalokesh/model.h5)
+
+### How to use:
+1. Download the `model.h5` (or `.pth`) file from the link above.
+2. Place it in the `models/` directory of this repository.
+3. Run the inference script:
+   ```bash
+   python scripts/inference.py --model models/model.h5
