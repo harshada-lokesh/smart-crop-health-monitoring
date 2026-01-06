@@ -1,1 +1,17 @@
+# 📊 Project Dataset
 
+The images and manual annotations for this project are hosted on Kaggle due to their size.
+
+### [🔗 Access the Dataset on Kaggle](PASTE_YOUR_KAGGLE_LINK_HERE)
+
+## 📁 Dataset Details
+- **Images:** 500+ leaf images (Tomato, Potato, etc.)
+- **Format:** YOLO v8 / Pascal VOC (XML)
+- **Annotation Method:** Manually annotated using LabelImg.
+- **License:** MIT / CC BY 4.0
+
+## 🛠️ Usage
+To use this dataset in the training scripts:
+1. Download the ZIP from Kaggle.
+2. Extract the contents into this folder.
+3. Run `python scripts/train_model.py`.
