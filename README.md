@@ -42,6 +42,12 @@ A high-accuracy model for identifying healthy and rust or powdery diseased leave
   <img src="graphs/CNN-result.png" width="300" alt="Centered image">
 </p>
 
+### After Detection
+The results + solution (remedy) for the diseased leaf is sent to the users for real-time monitoring via the **Blynk Mobile App**
+<p align="center">
+  <img src="graphs/CNN-result.png" width="300" alt="Centered image">
+</p>
+
 ---
 
 ## 🛠 Hardware Integration
@@ -49,6 +55,9 @@ The system uses an **ESP32** microcontroller to fetch real-time data from:
 - **Atmospheric:** DHT11 (Temperature & Humidity)
 - **Soil:** NPK Sensor (Nutrients), DS18B20 (Temperature), Capacitive Moisture Sensor.
 - **IoT Dashboard:** Real-time monitoring via the **Blynk Mobile App**.
+<p align="center">
+  <img src="graphs/CNN-result.png" width="300" alt="Centered image">
+</p>
 
 ## 📜 Publication
 
