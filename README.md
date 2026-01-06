@@ -2,6 +2,9 @@
 **A Hybrid IoT and Deep Learning Approach for Precision Agriculture**
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Arduino](https://img.shields.io/badge/Arduino-IDE-00979D.svg)](https://www.arduino.cc/)
+[![ESP32](https://img.shields.io/badge/Hardware-ESP32-red.svg)](https://www.espressif.com/)
+
 
 This project presents an end-to-end smart farming solution. It combines **IoT soil sensing** using ESP32 with **Computer Vision** (YOLOv11 & CNN) to detect and classify diseases in crops like Tomato, Potato, and Chili.
 
@@ -21,20 +24,22 @@ This project presents an end-to-end smart farming solution. It combines **IoT so
 
 ### YOLOv11 Detection (Real-Time)
 Used for localized disease detection across 7+ crop varieties.
+- **Validation Accuracy:** 95%
+- **Training Accuracy:** 96%
 - **Results:** Precision, Recall, and mAP curves are stored in `/Graphs`.
 - **Demo:**
 <p align="center">
-  <img src="graphs/yolo_result.png" width="700" alt="Centered image">
+  <img src="graphs/yolo_result.png" width="500" alt="Centered image">
 </p>
 
 
 ### CNN Classification
-A high-accuracy model for identifying healthy vs. diseased leaves.
+A high-accuracy model for identifying healthy and rust or powdery diseased leaves.
 - **Validation Accuracy:** 91%
-- **Training Accuracy:** 97%
+- **Training Accuracy:** 92%
 - **Demo:**
 <p align="center">
-  <img src="graphs/CNN-result.png" width="700" alt="Centered image">
+  <img src="graphs/CNN-result.png" width="300" alt="Centered image">
 </p>
 
 ---
@@ -45,7 +50,9 @@ The system uses an **ESP32** microcontroller to fetch real-time data from:
 - **Soil:** NPK Sensor (Nutrients), DS18B20 (Temperature), Capacitive Moisture Sensor.
 - **IoT Dashboard:** Real-time monitoring via the **Blynk Mobile App**.
 
+## 📜 Publication
 
+### This project was published as a paper as part of the 15th IEEE International Conference on Control System, Computing and Engineering (ICCSCE 2025).
 
 ---
 
