@@ -61,5 +61,5 @@ The system uses an **ESP32** microcontroller to fetch real-time data from:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [[https://github.com/YOUR_USERNAME/smart-crop-monitoring.git](https://github.com/YOUR_USERNAME/smart-crop-monitoring.git](https://github.com/harshada-lokesh/smart-crop-health-monitoring.git)]
+   git clone https://github.com/harshada-lokesh/smart-crop-health-monitoring.git
    cd smart-crop-monitoring
