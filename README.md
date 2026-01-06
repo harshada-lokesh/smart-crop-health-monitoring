@@ -26,16 +26,16 @@ Used for localized disease detection across 7+ crop varieties.
 <p align="center">
   <img src="graphs/yolo_result.png" width="700" alt="Centered image">
 </p>
-- **Confusion Matrix:**
-
 
 
 ### CNN Classification
 A high-accuracy model for identifying healthy vs. diseased leaves.
 - **Validation Accuracy:** 91%
 - **Training Accuracy:** 97%
-- **Metric:**
-![CNN Confusion Matrix](Graphs/cnn_confusion_matrix.png)
+- **Demo:**
+<p align="center">
+  <img src="graphs/CNN-result.png" width="700" alt="Centered image">
+</p>
 
 ---
 
