@@ -1,0 +1,17 @@
+# 📊 Project Dataset
+
+The images and manual annotations for this project are hosted on Kaggle due to their size.
+
+### [🔗 Access the Dataset on Kaggle] https://www.kaggle.com/datasets/harshadalokesh26/healthy-and-unhealthy-crop-images
+
+## 📁 Dataset Details
+- **Images:** 2000+ leaf images (Tomato, Potato, etc.)
+- **Format:** YOLO v11
+- **Annotation Method:** Manually annotated using Label-Studio.
+- **License:** MIT / CC BY 4.0
+
+## 🛠️ Usage
+To use this dataset in the training scripts:
+1. Download the ZIP from Kaggle.
+2. Extract the contents into this folder.
+3. Run `python scripts/train_model.py`.
