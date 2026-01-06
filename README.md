@@ -23,7 +23,11 @@ This project presents an end-to-end smart farming solution. It combines **IoT so
 Used for localized disease detection across 7+ crop varieties.
 - **Results:** Precision, Recall, and mAP curves are stored in `/Graphs`.
 - **Demo:**
-![YOLO Detection]
+<p align="center">
+  <img src="graphs/yolo_result.png" width="700" alt="Centered image">
+</p>
+- **Confusion Matrix:**
+
 
 
 ### CNN Classification
