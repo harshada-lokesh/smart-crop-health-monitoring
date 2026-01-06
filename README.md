@@ -20,6 +20,7 @@ This project presents an end-to-end smart farming solution. It combines **IoT so
 - **`Hardware/`**: Arduino (.ino) code for NPK, DHT11, DS18B20, and Soil Moisture sensors.
 - **`Models/`**: `my_model.pt` (YOLOv11) and `model.h5` (CNN - weights hosted on Hugging Face).
 - **`Scripts/`**: Python scripts for model training and real-time webcam inference.
+- **`ROS_navigation/`**: Python scripts for path following and scenario visualization and launch file to mange both the python scripts.
 
 ---
 
